@@ -35,7 +35,7 @@
  }
   
  div.imagem {
-     background-image: url("/images/image-equilibrium.jpg");
+     background-image: url("");
      width: 250px;
      height: 250px;
      border-radius: 8px;
@@ -45,6 +45,12 @@
      position: relative;
  }
 
+ img.eth {
+     width: 250px;
+     height: 250px;
+     border-radius: 8px;
+
+ }
  div.overline {
      position: absolute;
      top: 0;
@@ -52,6 +58,7 @@
      background-color: var(--corhover);
      width: 250px;
      height: 250px;
+     border-radius: 8px;
      opacity: 0;
      cursor: pointer;
  }
@@ -102,7 +109,7 @@
      align-items: center;
  }
  
- img {
+ img.usuario {
      width: 40px;
      border-radius: 50%;
      border: solid 1px white;
